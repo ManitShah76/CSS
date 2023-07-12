@@ -1,0 +1,12 @@
+/*  selector{
+            Property1: value1;
+            Property2: value2;
+        }  */
+.External {
+    color: khaki;
+    background-color: teal;
+    font-size: 30px;
+}
+body{
+    background-color:lightblue ;
+}

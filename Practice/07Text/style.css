@@ -1,0 +1,42 @@
+*{  
+    font-size: 30px;
+}
+h1{
+    text-align: center;  
+}
+.Text-align{
+    text-align: center;
+    text-align: end;
+}
+.color{
+    color: coral;
+}
+.Text-indent{
+    text-indent: 200px;
+}
+.letter-spacing{
+    letter-spacing: 12px;
+}
+.word-spacing{
+    word-spacing: 60px;
+}
+.Text-shadow{
+    text-shadow: 10px 10px 10px chocolate;
+}
+.Text-Transform{
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+.Text-Decoration{
+    /* text-decoration: overline; */
+    text-decoration: underline;
+    /* text-decoration: dotted; */
+}
+a{
+    text-decoration: none;
+}
+.direction{
+    direction: rtl;
+    direction: unset;
+}

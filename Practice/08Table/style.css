@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table,th,td{
+    border: 1px solid black;
+    height: 80px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+td,th{
+    padding: 10px 20px;
+}
+
+tr:nth-child(even){
+    background-color: cornflowerblue;
+    color: black;
+}
+
+tr:nth-child(odd){
+    background-color: coral;
+    color: black;
+}
+
+th{
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.Responsive{
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+    overflow: scroll;
+}

@@ -124,3 +124,50 @@ input[type="submit"]{
 #section_signin{
     color: black;
 } 
+
+.section3{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#image_1,#image_2,#image_3{
+    padding: 9px;
+}
+
+#link1,#link2,#link3{
+    padding-left: 20px;
+    color: black;
+    font-size: 25px;
+}
+
+#p1,#p2,#p3{
+    padding: 20px 20px 0 20px;
+    color: black;
+    font-size: 25px;
+}
+
+a{
+    color: black;
+}
+
+.location{
+    padding-left: 28px;
+    /* padding-bottom: 30px; */
+    font-size: 40px;
+}
+
+#cities{
+    padding-left: 1030px;
+    /* padding-bottom: 30px; */
+    font-size: 20px;
+}
+
+iframe{
+    padding: 30px;
+}
+
+.table{
+    width: 100%;
+    padding: 80px;
+}
+

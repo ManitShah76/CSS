@@ -249,6 +249,7 @@ input[type="submit"]{
 #link1,#link2,#link3{
     color: black;
     font-size: 18px;
+    text-decoration: underline;
 }
 
 .location{
@@ -301,11 +302,11 @@ a{
 }
 
 .location_name8{
-    padding-bottom: 110px;
+    padding-bottom: 120px;
 }
 
 .section6{
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .last_name{
@@ -343,6 +344,10 @@ ul{
     line-height: 40px;
     font-size: 18px;
 }
+
+/* .section7{
+    display: flex;
+} */
 
 .logos{
     display: flex;

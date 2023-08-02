@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h1{
+    background-color: coral;
+    color: black;
+}
+.box{
+    display: flex;
+}
+
+.box1{
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    background-color: coral;
+    color: black;
+    display: none;
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    background-color: coral;
+    color: black;
+    display: none;
+}
+
+h1:hover+.box>.box1{
+    cursor: pointer;
+    display: block;
+    position: fixed;
+}
+
+.box>.box1:hover+.box2{
+    display: block;
+}

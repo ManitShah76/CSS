@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max</title>
+    <style>
+      body {
+        background-color: crimson;
+      }
+      h1::after{
+        content: " size";
+      }
+
+      /* // X-Small devices (portrait phones, less than 576px)
+        // No media query for `xs` since this is the default in Bootstrap */
+
+        /* // XX-Large devices (larger desktops, 1400px and up) */
+        @media (max-width: 1400px) {
+          body {
+            background-color: rgb(20, 207, 220);
+          }
+          h1::after {
+            content: " 1400px";
+          }
+        }
+        /* // X-Large devices (large desktops, 1200px and up) */
+        @media (max-width: 1200px) {
+          body {
+            background-color: rgb(220, 20, 207);
+          }
+          h1::after {
+            content: " 1200px";
+          }
+        }
+        /* // Large devices (desktops, 992px and up) */
+        @media (max-width: 992px) {
+          body {
+            background-color: rgba(183, 220, 20, 0.774);
+          }
+          h1::after {
+            content: " 992px";
+          }
+        }
+        /* // Medium devices (tablets, 768px and up) */
+        @media (max-width: 768px) {
+          body {
+            background-color: rgb(33, 20, 220);
+          }
+          h1::after {
+            content: " 768px";
+          }
+        }
+      /* // Small devices (landscape phones, 576px and up) */
+      @media (max-width: 576px) {
+        body {
+          background-color: rgb(20, 220, 90);
+        }
+        h1::after {
+          content: " 576px";
+        }
+      }
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>Hello</h1>
+      </div>
+    </div>
+  </body>
+</html>

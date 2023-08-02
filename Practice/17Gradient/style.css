@@ -1,0 +1,62 @@
+div{
+    height: 100px;
+}
+.linear-gradient {
+background: linear-gradient(
+  to left,
+  red,
+  orange,
+  yellow,
+  green,
+  blue,
+  indigo,
+  violet
+);
+}
+.radial-gradient {
+background: radial-gradient(red, yellow, rgb(30, 144, 255));
+width: 150px;
+height: 150px;
+border-radius: 50%;
+margin: 0 auto;
+}
+.conic-gradient {
+background: conic-gradient(rgb(247, 4, 41), rgb(3, 247, 85), rgb(227, 3, 243));
+width: 150px;
+height: 150px;
+margin: 0 auto;
+border-radius: 50%;
+}
+
+
+.multi {
+/* Multi-position color stop: A gradient tilted 45 degrees,
+with a red bottom-left half and a blue top-right half,
+with a hard line where the gradient changes from red to blue */ 
+
+background: linear-gradient( 45deg,  red 0 50%, blue 50% 100%);
+
+/* A gradient tilted 45 degrees,
+starting blue and finishing red */
+
+background: linear-gradient(45deg, blue, red);
+
+/* A gradient going from the bottom right to the top left corner,
+starting blue and finishing red */
+
+background: linear-gradient(to left top, blue, red);
+
+/* Color stop: A gradient going from the bottom to top,
+starting blue, turning green at 40% of its length,
+and finishing red */
+
+background: linear-gradient(0deg, blue, green 40%, red);
+
+/* Color hint: A gradient going from the left to right,
+starting red, getting to the midpoint color
+10% of the way across the length of the gradient,
+taking the rest of the 90% of the length to change to blue */
+
+background: linear-gradient(0.5turn, red, 10%, blue);
+height: 100px;
+}
